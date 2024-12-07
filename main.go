@@ -5,13 +5,14 @@ import (
 	"aoc/sol_02"
 	"aoc/sol_03"
 	"aoc/sol_04"
+	"aoc/sol_05"
 )
 
 //TIP <p>To run your code, right-click the code and select <b>Run</b>.</p> <p>Alternatively, click
 // the <icon src="AllIcons.Actions.Execute"/> icon in the gutter and select the <b>Run</b> menu item from here.</p>
 
 func main() {
-	day := 4
+	day := 5
 
 	switch day {
 	case 1:
@@ -25,6 +26,9 @@ func main() {
 		break
 	case 4:
 		sol_04.RunSol04()
+		break
+	case 5:
+		sol_05.RunSol05()
 		break
 	}
 }
