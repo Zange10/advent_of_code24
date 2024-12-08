@@ -7,10 +7,11 @@ import (
 	"aoc/sol_04"
 	"aoc/sol_05"
 	"aoc/sol_06"
+	"aoc/sol_07"
 )
 
 func main() {
-	day := 6
+	day := 7
 
 	switch day {
 	case 1:
@@ -30,6 +31,9 @@ func main() {
 		break
 	case 6:
 		sol_06.RunSol06()
+		break
+	case 7:
+		sol_07.RunSol07()
 		break
 	}
 }
